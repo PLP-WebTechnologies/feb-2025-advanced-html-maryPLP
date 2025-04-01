@@ -1,0 +1,99 @@
+<DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>My Web Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <ol>
+            <li>i</li>
+            <li>ii</li>
+            <li>iii</li>
+            <li>iv</li>
+            <li>v</li>
+        </ol>
+        <a href="https://www.pexels.com">Image</a>
+        <table>
+            <tr>
+                <td>John Doe</td>
+                <td>Nairobi</td>
+                <td>123456789</td>
+                <td>johndoe@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Alice Styles</td>
+                <td>Tokyo</td>
+                <td>11111111</td>
+                <td>alicestyles@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Bob Smith</td>
+                <td>New York</td>
+                <td>22222222</td>
+                <td>bobsmith@gmail.com</td>
+            </tr>
+            <tr>
+                <td>Charlie Brown</td>
+                <td>Los Angeles</td>
+                <td>33333333</td>
+                <td>charliebrown@gmail.com</td>
+            </tr>
+            <tr>
+                <td>David Johnson</td>
+                <td>London</td>
+                <td>44444444</td>
+                <td>davidjohnson@gmail.com</td>
+            </tr>
+        </table>
+    
+        <!-- Registration Form -->
+        <form>
+            <!-- Name Field -->
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" placeholder="Enter your full name" required><br><br>
+    
+            <!-- Email Field -->
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+    
+            <!-- Password Field -->
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+    
+            <!-- Date Field -->
+            <label for="dob">Date of Birth:</label>
+            <input type="date" id="dob" name="dob" required><br><br>
+    
+            <!-- Dropdown -->
+            <label for="country">Country:</label>
+            <select id="country" name="country" required>
+                <option value="">Select your country</option>
+                <option value="usa">United States</option>
+                <option value="uk">United Kingdom</option>
+                <option value="canada">Canada</option>
+                <option value="australia">Australia</option>
+            </select><br><br>
+    
+            <!-- Radio Buttons -->
+            <label>Gender:</label>
+            <input type="radio" id="male" name="gender" value="male" required>
+            <label for="male">Male</label>
+            <input type="radio" id="female" name="gender" value="female" required>
+            <label for="female">Female</label><br><br>
+    
+            <!-- Checkboxes -->
+            <label>Interests:</label><br>
+            <input type="checkbox" id="sports" name="interests" value="sports">
+            <label for="sports">Sports</label><br>
+            <input type="checkbox" id="music" name="interests" value="music">
+            <label for="music">Music</label><br>
+            <input type="checkbox" id="travel" name="interests" value="travel">
+            <label for="travel">Travel</label><br><br>
+    
+            <!-- Submit Button -->
+            <input type="submit" value="Register">
+        </form>
+    </body>
+    </html>
